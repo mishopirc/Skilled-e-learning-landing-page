@@ -1,0 +1,40 @@
+/* header section starts  */
+.header{  
+  background-color:#2a2a89;
+  width: 100%;
+  position: fixed;
+  border-bottom: 2px solid #12123b;
+}
+.navbar{
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks{
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.logo{
+  font-size: 28px;
+  color: #d8d8f3;
+}
+
+.logo span{
+  color: #060614;
+}
+
+.navlinks a{
+  color: #d8d8f3;
+  font-size: 18px;
+  text-shadow: 0px 0px 3px #12123b;
+}
+
+.navlinks a:hover{
+  color: #060614;
+}
