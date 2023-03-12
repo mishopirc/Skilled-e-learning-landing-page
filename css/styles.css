@@ -1,3 +1,8 @@
+.main {
+    position: relative;
+    overflow: hidden;
+}
+
 .btn {
     border-radius: 28px;
     padding: 14px 32px;
@@ -35,12 +40,11 @@
     background-color: #666ca3;
 }
 
-/* offer starts */
+/* section-1 starts */
 
 .offer {
     max-width: 800px;
     width: 100%;
-    height: 245px;
     padding-top: 170px;
     padding-left: 10%;
     padding-right: 100px;
@@ -66,11 +70,100 @@
 }
 
 .img {
-  height: 840px;
-  position: absolute;
-  top: -80px;
-  right: -260px;
+    height: 840px;
+    position: absolute;
+    top: -90px;
+    right: -240px;
 }
 
 /* section cources starts */
 
+.section-2 {
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+    margin-top: 200px;
+}
+
+.boxes-wrapper {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 140px;
+}
+
+.box {
+    max-width: 350px;
+    width: 100%;
+    height: 322px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.box-content {
+    padding-top: 64px;
+    width: 286px;
+    margin: 0 auto;
+}
+
+.box-content > h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.box-content > h3 {
+    color: rgba(19, 24, 63, 1);
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 800;
+}
+
+.box-content > p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #83869a;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.box-content > a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #f74780;
+}
+
+.box-1 {
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+
+/* footer */
+.footer {
+    background-color: #13183F;
+}
+
+
+.footer-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper > h2 {
+    font-size: 28px;
+    font-weight: 1000;
+    color: white;
+}
+
+.footer-btn {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
