@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
 .main {
     position: relative;
     overflow: hidden;
@@ -32,12 +39,12 @@
     color: #13183f;
 }
 
-.nav-btn {
+.btn-1 {    
     background-color: #13183f;
 }
 
-.nav-btn:hover {
-    background-color: #666ca3;
+.btn-1:hover {
+    background: #666CA3;
 }
 
 /* section-1 starts */
@@ -69,6 +76,10 @@
     background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
 }
 
+.btn-2:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);    
+}
+
 .img {
     height: 840px;
     position: absolute;
@@ -90,7 +101,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 140px;
+    padding-bottom: 90px;
 }
 
 .box {
@@ -99,13 +110,19 @@
     height: 322px;
     background-color: white;
     border-radius: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 .box-content {
+    position: relative;
     padding-top: 64px;
     width: 286px;
     margin: 0 auto;
+}
+
+.box-content > img {
+    position: absolute;
+    top: -24px;
 }
 
 .box-content > h2 {
@@ -166,4 +183,8 @@
 
 .footer-btn {
     background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+.footer-btn:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);    
 }
